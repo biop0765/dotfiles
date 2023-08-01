@@ -1,5 +1,4 @@
 #!/bin/bash
 
-sudo apt-get install rename curl build-essential
-
+sudo apt-get install -y rename > /dev/null 2>&1
 go install github.com/github-release/github-release@latest
